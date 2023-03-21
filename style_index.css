@@ -175,7 +175,7 @@ a{
 .categorias{
     width: 100%;
     background: rgb(174, 174, 174);
-
+    margin-top: 5% ;
 }
 
 .hcategorias{
@@ -221,6 +221,10 @@ a{
     margin: 2% 2%;
     float: left;
     display: inline;
+}
+
+.cardfooter > span{
+    display: block;
 }
 
 .cards_left{

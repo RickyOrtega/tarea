@@ -1,0 +1,26 @@
+.servicios{
+    width: 100%;
+    background: rgb(174, 174, 174);
+}
+
+.mservicios{
+    width: 100%;
+    background: rgb(174, 174, 174);
+}
+
+.cardservicios, .imgcardservicios{
+    border-radius: 10px 10px 0 0;
+}
+
+.cardservicios{
+    width: 20%;
+    background: rgb(254, 254, 254);
+    margin: 2% 2%;
+    height: 200px;
+}
+
+.imgcardservicios{
+    width: 100%;
+    height: 50%;
+    background: rgb(117, 117, 117);
+}
