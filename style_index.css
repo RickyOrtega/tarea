@@ -3,6 +3,11 @@
     margin: 0;
     /*font-family: 'Poppins', sans-serif;*/
   }
+
+  html{
+    height: 100%;
+  }
+
 .header {
   width: 100%;
   height: 240px;
@@ -14,8 +19,18 @@ div {
 }
 
 .herramientas{
-    height: 10vh;
-    background: rgb(0, 0, 0);
+    height: 20px;
+    width: 100%;
+    background: #000;
+}
+
+.herramientas a{
+    color: white;
+}
+
+.herramienta{
+    float: right;
+    margin-right: 30px;
 }
 
 .logo {
@@ -127,13 +142,14 @@ a{
 }
 
 .contenido{
-    width: 55%;
-    max-width: 55%;
+    width: 75%;
+    max-width: 80%;
     height: 100%;
     background: rgb(221, 221, 221);
+    float: left;
 }
 
-.aside_derecho, .aside_izquierdo{
+.aside_izquierdo{
     width: 20%;
     max-width: 20%;
     height: 100%;
@@ -141,12 +157,8 @@ a{
     margin: 0px 20px;
 }
 
-.aside_derecho{
-    float: left;
-}
-
 .aside_izquierdo{
-    float: right;
+    float: left;
 }
 
 .elementos_barra_lateral{
@@ -160,9 +172,87 @@ a{
     margin-top: 10%;
 }
 
+.categorias{
+    width: 100%;
+    background: rgb(174, 174, 174);
+
+}
+
+.hcategorias{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.mcategorias{
+    width: 100%;
+    background: rgb(174, 174, 174);
+}
+
+.cardcategorias, .imgcardcategorias{
+    border-radius: 10px 0 0 10px;
+}
+
+.cardcategorias{
+    width: 29%;
+    background: rgb(254, 254, 254);
+    margin: 2% 2%;
+    height: 200px;
+}
+
+.imgcardcategorias{
+    width: 33%;
+    height: 100%;
+    background: rgb(117, 117, 117);
+}
+
 .footer{
     width: 100%;
     max-width: 100%;
-    height: 13vh;
-    background: rgb(0, 0, 0);
+    background: rgb(50, 50, 50);
+}
+
+.cardfooter{
+    width: 40%;
+    color: aqua;
+    background: #000;
+    height: 200px;
+    margin: 2% 2%;
+    float: left;
+    display: inline;
+}
+
+.cards_left{
+    float: left;
+    width: 70%;
+}
+
+.card_right{
+    width: 18%;
+    background: #000;
+    margin-top: 2%;
+    margin-right: 2%;
+    float:left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label{
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: bisque;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.formfooter input[type="text"]{
+    width: 90%;
+    height: 30px;
+}
+
+.formfooter input[type="button"]{
+    margin-top: 20px;
+    width: 33%;
 }
