@@ -1,12 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
-    /*font-family: 'Poppins', sans-serif;*/
-  }
+  padding: 0;
+  margin: 0;
+  /*font-family: 'Poppins', sans-serif;*/
+}
 
-  html{
-    height: 100%;
-  }
+html {
+  height: 100%;
+}
 
 .header {
   width: 100%;
@@ -18,245 +18,248 @@ div {
   display: inline-block;
 }
 
-.herramientas{
-    height: 20px;
-    width: 100%;
-    background: #000;
+.herramientas {
+  height: 20px;
+  width: 100%;
+  background: #000;
 }
 
-.herramientas a{
-    color: white;
+.herramientas a {
+  color: white;
 }
 
-.herramienta{
-    float: right;
-    margin-right: 30px;
+.herramienta {
+  float: right;
+  margin-right: 30px;
 }
 
 .logo {
   width: 20%;
   max-width: 20%;
-  height: 200px;
+  height: 80%;
   background: rgb(255, 255, 255);
   margin: 20px;
   text-align: center;
 }
 
-.logo_imagen{
-    height: 70%;
+.logo_imagen {
+  height: 70%;
 }
 
-.logo_imagen img{
-    width: 40%;
-    text-align: center;
+.logo_imagen img {
+  width: 40%;
+  text-align: center;
 }
 
-span{
-    height: 30%;
-    font-size: 22px;
+span {
+  height: 30%;
+  font-size: 22px;
 }
 
-.cajas{
-    width: 77%;
-    max-width: 77%;
-    height: 200px;
-    position: absolute;
-    margin-top: 20px;
+.cajas {
+  width: 77%;
+  max-width: 77%;
+  height: 80%;
+  position: absolute;
+  margin-top: 20px;
 }
 
-.nav_arriba, .nav_abajo {
-    width: 100%;
-    max-width: 100%;
-    height: 100px;
-    background: rgb(199, 199, 199);
-    padding: 0%;
-    margin: 0%;
+.nav_arriba,
+.nav_abajo {
+  width: 100%;
+  max-width: 100%;
+  height: 12%;
+  background: rgb(199, 199, 199);
+  padding: 0%;
+  margin: 0%;
 }
 
-form{
-    text-align: center;
-    height: 100%;
-    margin: 20px 0;
+form {
+  text-align: center;
+  height: 100%;
+  margin: 20px 0;
 }
 
-.search, .boton-buscar{
-    height: 40%;
+.search,
+.boton-buscar {
+  height: 40%;
 }
 
-.search{
-    width: 40%;
+.search {
+  width: 40%;
 }
 
-.boton-buscar{
-    width: 5%;
-    height: 44px;
+.boton-buscar {
+  width: 5%;
+  height: 44px;
 }
 
-.nav_abajo{
-    background: rgb(144, 135, 135);
+.nav_abajo {
+  background: rgb(144, 135, 135);
 }
 
-.busqueda{
-    background: rgb(255, 255, 255);
-    width: 73%;
-    max-width: 73%;
-    height: 100%;
+.busqueda {
+  background: rgb(255, 255, 255);
+  width: 73%;
+  max-width: 73%;
+  height: 100%;
 }
 
-.redes_sociales{
-    position: absolute;
-    display: inline;
-    text-align: center;
+.redes_sociales {
+  position: absolute;
+  display: inline;
+  text-align: center;
 }
 
-.red_social img{
-    width: 76%;
+.red_social img {
+  width: 76%;
 }
 
-.red_social{
-    width: 32%;
-    text-align: center;
-    height: 100%;
+.red_social {
+  width: 32%;
+  text-align: center;
+  height: 100%;
 }
 
-.barra_navegacion{
-    margin-top: 40px;
+.barra_navegacion {
+  margin-top: 40px;
 }
 
-li{
-    list-style: none;
-    display: inline;
-    padding: 10%;
+li {
+  list-style: none;
+  display: inline;
+  padding: 10%;
 }
 
-a{
-    text-decoration:none;
+a {
+  text-decoration: none;
 }
 
-.main{
-    background: rgb(255, 255, 255);
-    display: block;
-    width: 100%;
-    height: 720px;
-    margin: 20px 0px;
+.main {
+  background: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  height: 720px;
+  margin: 20px 0px;
 }
 
-.contenido{
-    width: 75%;
-    max-width: 80%;
-    height: 100%;
-    background: rgb(221, 221, 221);
-    float: left;
+.contenido {
+  width: 75%;
+  max-width: 80%;
+  height: 100%;
+  background: rgb(221, 221, 221);
+  float: left;
 }
 
-.aside_izquierdo{
-    width: 20%;
-    max-width: 20%;
-    height: 100%;
-    background: rgb(125, 125, 125);
-    margin: 0px 20px;
+.aside_izquierdo {
+  width: 20%;
+  max-width: 20%;
+  height: 100%;
+  background: rgb(125, 125, 125);
+  margin: 0px 20px;
 }
 
-.aside_izquierdo{
-    float: left;
+.aside_izquierdo {
+  float: left;
 }
 
-.elementos_barra_lateral{
-    width: 100%;
-    text-align: center;
-    height: 300px;
+.elementos_barra_lateral {
+  width: 100%;
+  text-align: center;
+  height: 300px;
 }
 
-.elemento_bl{
-    width: 100%;
-    margin-top: 10%;
+.elemento_bl {
+  width: 100%;
+  margin-top: 10%;
 }
 
-.categorias{
-    width: 100%;
-    background: rgb(174, 174, 174);
-    margin-top: 5% ;
+.categorias {
+  width: 100%;
+  background: rgb(174, 174, 174);
+  margin-top: 5%;
 }
 
-.hcategorias{
-    width: 100%;
-    color: rgb(0, 0, 0);
-    margin: 10px 0;
-    text-align: center;
+.hcategorias {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+  text-align: center;
 }
 
-.mcategorias{
-    width: 100%;
-    background: rgb(174, 174, 174);
+.mcategorias {
+  width: 100%;
+  background: rgb(174, 174, 174);
 }
 
-.cardcategorias, .imgcardcategorias{
-    border-radius: 10px 0 0 10px;
+.cardcategorias,
+.imgcardcategorias {
+  border-radius: 10px 0 0 10px;
 }
 
-.cardcategorias{
-    width: 29%;
-    background: rgb(254, 254, 254);
-    margin: 2% 2%;
-    height: 200px;
+.cardcategorias {
+  width: 29%;
+  background: rgb(254, 254, 254);
+  margin: 2% 2%;
+  height: 200px;
 }
 
-.imgcardcategorias{
-    width: 33%;
-    height: 100%;
-    background: rgb(117, 117, 117);
+.imgcardcategorias {
+  width: 33%;
+  height: 100%;
+  background: rgb(117, 117, 117);
 }
 
-.footer{
-    width: 100%;
-    max-width: 100%;
-    background: rgb(50, 50, 50);
+.footer {
+  width: 100%;
+  max-width: 100%;
+  background: rgb(50, 50, 50);
 }
 
-.cardfooter{
-    width: 40%;
-    color: aqua;
-    background: #000;
-    height: 200px;
-    margin: 2% 2%;
-    float: left;
-    display: inline;
+.cardfooter {
+  width: 40%;
+  color: aqua;
+  background: #000;
+  height: 200px;
+  margin: 2% 2%;
+  float: left;
+  display: inline;
 }
 
-.cardfooter > span{
-    display: block;
+.cardfooter > span {
+  display: block;
 }
 
-.cards_left{
-    float: left;
-    width: 70%;
+.cards_left {
+  float: left;
+  width: 70%;
 }
 
-.card_right{
-    width: 18%;
-    background: #000;
-    margin-top: 2%;
-    margin-right: 2%;
-    float:left;
-    text-align: center;
-    margin-bottom: 10px;
+.card_right {
+  width: 18%;
+  background: #000;
+  margin-top: 2%;
+  margin-right: 2%;
+  float: left;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-label{
-    width: 100%;
-    display: block;
-    text-align: left;
-    color: bisque;
-    margin-top: 20px;
-    margin-left: 10px;
+label {
+  width: 100%;
+  display: block;
+  text-align: left;
+  color: bisque;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
-.formfooter input[type="text"]{
-    width: 90%;
-    height: 30px;
+.formfooter input[type="text"] {
+  width: 90%;
+  height: 30px;
 }
 
-.formfooter input[type="button"]{
-    margin-top: 20px;
-    width: 33%;
+.formfooter input[type="button"] {
+  margin-top: 20px;
+  width: 33%;
 }

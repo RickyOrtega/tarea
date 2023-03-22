@@ -1,0 +1,36 @@
+.contenido{
+    background: rgb(133, 133, 133);
+}
+
+.titulo_formulario{
+    display: block;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.contenedor_formulario{
+    width: 41.24%;
+    position: absolute;
+}
+
+.formulario_contacto{
+    width: 50%;
+}
+
+.formulario_contacto label{
+    margin: 0 0 0 5%;
+    color: rgb(0, 0, 0);
+}
+
+.formulario_contacto input[type="text"]{
+    width: 90%;
+    height: 4vh;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+
+.formulario_contacto input[type="button"]{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
